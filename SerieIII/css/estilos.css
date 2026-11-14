@@ -1,0 +1,216 @@
+/* ---------- General ---------- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+    color: #1565c0;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* ---------- Menu ---------- */
+.barra {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.titulo {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1565c0;
+    text-decoration: none;
+}
+
+.enlaces a {
+    margin: 0 15px;
+    padding-bottom: 3px;
+    color: black;
+    text-decoration: none;
+}
+
+.enlaces a:hover,
+.enlaces a.activo {
+    color: #1565c0;
+    border-bottom: 2px solid #1565c0;
+}
+
+/* ---------- Contenido ---------- */
+.contenedor {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.tarjeta {
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+/* ---------- Botones ---------- */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-azul {
+    background-color: #1565c0;
+    color: white;
+    border: 2px solid #1565c0;
+}
+
+.btn-azul:hover {
+    background-color: #0d47a1;
+}
+
+.btn-blanco {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-blanco:hover {
+    background-color: #eeeeee;
+}
+
+.btn-chico {
+    padding: 5px 12px;
+    font-size: 14px;
+}
+
+/* ---------- Filtros ---------- */
+.filtros {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filtros select {
+    width: 220px;
+}
+
+/* ---------- Tabla ---------- */
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla th {
+    padding: 10px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.tabla td {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.tabla tr:hover td {
+    background-color: #e3f2fd;
+}
+
+.vacio {
+    text-align: center;
+}
+
+/* ---------- Estados ---------- */
+.estado {
+    padding: 3px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.disponible {
+    color: green;
+    border: 1px solid green;
+}
+
+.mantenimiento {
+    color: #d35400;
+    border: 1px solid #d35400;
+}
+
+/* ---------- Formulario ---------- */
+.formulario {
+    width: 600px;
+    margin: auto;
+}
+
+.formulario label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+.formulario small {
+    color: gray;
+}
+
+.fila {
+    display: flex;
+    gap: 10px;
+}
+
+.fila div {
+    flex: 1;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+/* ---------- Mensajes ---------- */
+.alerta {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.error {
+    color: #c62828;
+    border: 2px solid #c62828;
+}
+
+.exito {
+    color: green;
+    border: 2px solid green;
+}
+
+/* ---------- Pie de pagina ---------- */
+.pie {
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid black;
+}
